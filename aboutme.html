@@ -15,22 +15,59 @@
   <h1>WhateverJordan</h1>
       <p> 17 // NY </p>
     <img src="jr.jpg" alt="jr" style="width:250px;height:250px;">
-    $(document).ready(function(){
-    $('img').hover(function() {
-        $(this).css("cursor", "pointer");
-        $(this).toggle({
-          effect: "scale",
-          percent: "90%"
-        },200);
-    }, function() {
-         $(this).toggle({
-           effect: "scale",
-           percent: "80%"
-         },200);
+   html>
 
-    });
-});  
-  </head>
+	<head>
+
+	<title>Event!!!</title>
+
+	<script type="text/javascript">
+
+	function trigger()
+
+	{
+
+	document.getElementById("hover").addEventListener("mouseover", popup);
+
+	function popup()
+
+	{
+
+	alert("Welcome to my WebPage!!!");
+
+	}
+
+	}
+
+	</script>
+
+	<style>
+
+	p
+
+	{
+
+	     font-size:50px;
+
+	     position: fixed;
+
+	     left: 550px;
+
+	     top: 300px;
+
+	}
+
+	</style>
+
+	</head>
+
+	<body  onload="trigger();">
+
+	<p id="hover">Welcome!!!</p>
+
+	</body>
+
+	</html>
     <!DOCTYPE html>
 <html>
 <body>
