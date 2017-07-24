@@ -15,6 +15,21 @@
   <h1>WhateverJordan</h1>
       <p> 17 // NY </p>
     <img src="jr.jpg" alt="jr" style="width:250px;height:250px;">
+    $(document).ready(function(){
+    $('img').hover(function() {
+        $(this).css("cursor", "pointer");
+        $(this).toggle({
+          effect: "scale",
+          percent: "90%"
+        },200);
+    }, function() {
+         $(this).toggle({
+           effect: "scale",
+           percent: "80%"
+         },200);
+
+    });
+});  
   </head>
     <!DOCTYPE html>
 <html>
@@ -50,7 +65,7 @@ Click me to display Date and Time.</button>
  <p>
  <p>
   </p>
-  <h1>REFLECTIONS:</h1>
+  <h2>REFLECTIONS:</h2>
  <p> 1) I'm trying to make my website accesible to others by making content that is appropriate for all.
   </p>
  <p> 2) Other people used templates to create their site. They also were creative with their backgrounds. They did it through research
@@ -58,7 +73,7 @@ Click me to display Date and Time.</button>
   </p>
  <p> 3) I'm most proud of learning how to insert codes in different websites.
   </p>
-  <h1>CORE4:</h1>
+  <h2>CORE4:</h2>
  <p> 1) VARIABLE - A variable is used to store values in your code. It defines a specific part of your code. 
   Example:
  <p> t = Turtle()
@@ -75,7 +90,7 @@ Click me to display Date and Time.</button>
  <p> 4) FUNCTIONS - Functions are reusable code.
   </p>
  
-  <h1>REFLECTION:</h1>
+  <h2>REFLECTION:</h2>
   <p> 1. A list is a group of elements on one line. It is useful for organization on your code.
   <p> 2. All of my groups were helpful and welcoming. They produced a comfortable enviroment which made me feel comfortable to ask questions and answer questions.
    </p>
@@ -83,7 +98,7 @@ Click me to display Date and Time.</button>
 <img src="jordan1.BMP" alt="jordan1" style="width:250px;height:250px;">
 <img src="sis1.jpg" atl="sis1.jpg" style="width:250px;height:250px;">
   
-  <h1>ROBOTICS:</h1>
+  <h2>ROBOTICS:</h2>
   <p> The robotics portion of the program was definitely difficult. We worked in groups to wire a robot and build circuits. My team specifically had trouble trying to get our robot to function the way we wanted it to. Although we struggled, it was a riveting experience and I learned a lot.
   <p> 
   <p> Our robotics workshop was my favorite part of the week. We got to make our own personal gadget through Arduino. The gadget could light up and blink at the certain times you would set it for. Mine had very light blue LED's that had a darker blue LED that would blink through each LED. We also receive batteries to put in them so we can wear them on our shirts. For the workshop we got to work independently while being supervised by BlackRock tech employees. The employees would periodically check in on our work and help if needed.
@@ -95,5 +110,10 @@ Click me to display Date and Time.</button>
   <p>
      <img src="gibdun.JPG" alt="gibdun" style="width:250px;height:250px;">
   </p>
+
+
+</body>
+
+</html>
 
 </html>
